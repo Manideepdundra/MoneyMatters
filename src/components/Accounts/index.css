@@ -1,0 +1,63 @@
+.accounts-card-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.accounts-title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.account-details-card {
+  background-color: #e2e8f0;
+  color: #64748b;
+  background: cover;
+  margin: 0px;
+}
+
+.debit-credit-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.debit-credit-img {
+  height: 180px;
+  width: 180px;
+  background: none;
+}
+
+.credit-card {
+  width: 450px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+.debit-card {
+  width: 450px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.add-transaction-button {
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}

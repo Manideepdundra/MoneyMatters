@@ -1,0 +1,51 @@
+.user-dashboard-container {
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+}
+
+.dashboard-bg-container {
+  border-left: 1px solid lightgray;
+  margin: 0px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.user-dashboard-page {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.money-matter-logo-image {
+  height: 100px;
+  width: 300px;
+}
+.user-access-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-list-container {
+  list-style-type: none;
+}
+
+.list-item {
+  color: #64748b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.dashboards-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
